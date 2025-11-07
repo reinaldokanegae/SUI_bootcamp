@@ -1,0 +1,5 @@
+**/build
+**/.sui
+**/node_modules
+**/Move.lock
+exemplos/

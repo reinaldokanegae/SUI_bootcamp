@@ -1,0 +1,17 @@
+[package]
+name = "Projetoe1"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+
+[dependencies]
+
+
+[addresses]
+projetoe1 = "0x0"
+
+
+[dev-dependencies]
+
+
+[dev-addresses]
+
+
