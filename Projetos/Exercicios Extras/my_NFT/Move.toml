@@ -1,0 +1,10 @@
+[package]
+name = "my_NFT"
+version = "0.0.1"
+edition = "2024.beta"
+
+[addresses]
+my_NFT = "0x0"   # obrigatório quando usa nome simbólico
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
