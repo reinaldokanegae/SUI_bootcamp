@@ -1,0 +1,12 @@
+[package]
+name = "capabilities_sui"
+version = "0.0.1"
+edition = "2024"                # ← ESSA LINHA É OBRIGATÓRIA AGORA
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+capabilities_sui = "0x0"      # ou 0x0 para dev, mas 0xcafe é mais bonito
+sui = "0x2"
+std = "0x1"
