@@ -1,0 +1,7 @@
+[package]
+name = "capyburn_memecoin"
+version = "0.0.1"
+edition = "2024.beta"   # ou "2024" se já tiver a versão final
+
+[addresses]
+capyburn_memecoin = "0x0"
